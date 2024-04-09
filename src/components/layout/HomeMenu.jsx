@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Button from '../Button'
 
 const HomeMenu = () => {
   return (
@@ -20,10 +21,16 @@ const HomeMenu = () => {
       </div>
 
       {/* Menu Items */}
-      <div className='grid grid-cols-3 text-center mt-24'>
-        <p>item</p>
-        <p>item</p>
-        <p>item</p>
+      <div className='grid grid-cols-3 gap-4 text-center mt-24'>
+        <div className='bg-gray-300 p-4 rounded-lg text-center'>
+          <img src='/pizza.png' alt='pizza' />
+          <h4 className='font-semibold my-2'>Pepperoni Pizza</h4>
+          <p className='text-gray-400 text-sm'>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <button className='px-4 py-2'>Add to cart</button>
+          <Button label='Add to cart' bg='primary' color='white' rounded='lg' />
+        </div>
       </div>
     </section>
   )
