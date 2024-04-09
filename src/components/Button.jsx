@@ -1,4 +1,4 @@
-const Button = ({ label, bg, color, rounded, children, className }) => {
+const Button = ({ bg, color, rounded, children, className }) => {
   return (
     <>
       <button

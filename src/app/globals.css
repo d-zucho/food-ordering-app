@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  scroll-behavior: smooth;
+}
+
 section.hero {
   display: grid;
   grid-template-columns: 0.4fr 0.6fr;

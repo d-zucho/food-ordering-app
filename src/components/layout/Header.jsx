@@ -15,8 +15,10 @@ const Header = () => {
         <nav className='items-center gap-8 text-gray-500 font-semibold hidden sm:flex'>
           <Link href='/'>Home</Link>
           <Link href='/'>Menu</Link>
-          <Link href='/'>About</Link>
-          <Link href='/'>Contact</Link>
+          <Link href='#about' className='transition'>
+            About
+          </Link>
+          <Link href='#contact'>Contact</Link>
           <Link
             href='/'
             className='bg-primary text-white px-8 py-2 rounded-full'
