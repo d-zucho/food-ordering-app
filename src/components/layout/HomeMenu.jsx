@@ -2,12 +2,13 @@ import Image from 'next/image'
 
 const HomeMenu = () => {
   return (
-    <section className='w-full overflow-hidden'>
+    <section className='w-full mt-12'>
+      {/* Header */}
       <div className='relative'>
-        <div className='h-48 w-48 absolute -left-12'>
-          <Image src='/sallad1.png' fill objectFit='contain' />
+        <div className='absolute left-0 -top-16 -z-10'>
+          <Image src='/sallad1.png' width={109} height={189} />
         </div>
-        <div className='h-48 absolute right-0'>
+        <div className='absolute right-0 -top-36 -z-10'>
           <Image src='/sallad2.png' width={109} height={195} />
         </div>
       </div>
@@ -16,6 +17,13 @@ const HomeMenu = () => {
           Check out
         </h2>
         <h3 className='text-primary font-bold text-4xl italic'>Menu</h3>
+      </div>
+
+      {/* Menu Items */}
+      <div className='grid grid-cols-3 text-center mt-24'>
+        <p>item</p>
+        <p>item</p>
+        <p>item</p>
       </div>
     </section>
   )
