@@ -5,13 +5,10 @@ const ContactSection = () => {
   return (
     <section id='contact' className=''>
       <SectionHeader subheader={'Get in touch'} header={'Contact us'} />
-      <p className='text-gray-500 max-w-2xl mx-auto'>
+      <p className='text-gray-500 max-w-2xl mx-auto text-center'>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium
         nemo aperiam suscipit laudantium odio alias quidem, non nihil mollitia
         consectetur qui ipsa itaque delectus similique esse? Rem, consectetur
-        quas commodi quos dolorem qui dolor? Odio illum debitis laudantium
-        beatae. Numquam hic, perspiciatis iure dicta reprehenderit voluptates
-        cupiditate. Doloremque, quos minus?
       </p>
       <div className='mt-12'>
         <form className='max-w-sm mx-auto space-y-4'>
